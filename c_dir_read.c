@@ -4,6 +4,11 @@
 #include <sys/stat.h>
 #include <time.h>
 
+
+/*
+ *   Procedure for recursively show files in a given directory
+*/
+
 void listFilesRecursively(char *basePath) {
     char path[1000];
     struct dirent *dp;
