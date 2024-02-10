@@ -40,6 +40,7 @@ int main(int argc, char *argv[]) {
   if (argc > 1) {
         snprintf(basePath, sizeof(basePath), "%s", argv[1]);
     }
+    
     //printf("basePath: %s\n", basePath);
     listFilesRecursively(basePath);
     return 0;
